@@ -27,6 +27,10 @@ function App() {
 ]
 
   return (<>
+  <Header />
+  <Footer>
+  </Footer>
+  <Food />
 <Card></Card>
 <Button></Button>
 <Students name="Lucy" year={2077} isAlive={true}></Students>
