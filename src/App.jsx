@@ -27,23 +27,23 @@ function App() {
 ]
 
   return (<>
-  <Header />
-  <Footer>
-  </Footer>
-  <Food />
-<Card></Card>
-<Button></Button>
+<Header />
+<Footer>
+</Footer>
+<Food />
+<Card/>
+<Button/>
 <Students name="Lucy" year={2077} isAlive={true}></Students>
-<Students></Students>
+<Students/>
 <Usergreeting isLoggedIn={false}></Usergreeting>
-<List></List>
-<ArrayOfList></ArrayOfList>
+<List/>
+<ArrayOfList/>
 <PropsArray list={list}></PropsArray>
 <PropsArray/>
-<Counter></Counter>
-<OnChangeEventHandler></OnChangeEventHandler>
-<Donut></Donut>
-<ColorPicker></ColorPicker>
+<Counter/>
+<OnChangeEventHandler/>
+<Donut/>
+<ColorPicker/>
 <ObjectsInState/>
 <ArraysInState/>
 
